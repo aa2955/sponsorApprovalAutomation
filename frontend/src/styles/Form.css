@@ -1,0 +1,53 @@
+.proposal .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.proposal .form input, 
+.proposal .form select, 
+.proposal .form textarea, 
+.proposal .form button {
+    margin-bottom: 30px;
+}
+
+.proposal .form .label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.proposal .area {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.proposal .areaChild {
+    margin: 0;
+}
+
+.proposal .areaLabel {
+    margin-left: 20px;
+}
+
+.proposal .form span.areaChild input {
+    margin: 0;
+}
+
+.proposal input, 
+.proposal select, 
+.proposal textarea, 
+.proposal button {
+    padding: 0.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.proposal .characterCount {
+    color: #AAA;
+    font-weight: normal;
+}

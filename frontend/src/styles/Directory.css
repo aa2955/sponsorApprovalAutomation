@@ -1,0 +1,108 @@
+.datagridContainer {
+  width: 100%;
+}
+  
+.tabs button {
+  margin-right: 1rem;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  background-color: #eee;
+  font-weight: bold;
+  cursor: pointer;
+}
+  
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+  
+.tab-bottom {
+  background-color: #007bff;
+  width: 100%;
+  height: 3px;
+  margin-bottom: 20px;
+}
+
+.rdg {
+  border: none;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: white;
+  
+  height: auto;
+
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: stretch;
+}
+  
+.rdg-header-row {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+  
+.rdg-cell {
+  border-bottom: 1px solid #ddd;
+  width: auto;
+}
+  
+.rdg-row {
+  cursor: pointer;
+}
+  
+.rdg-row:hover {
+  background-color: #f2f2f2;
+}
+
+.directory .rdg-light {
+  overflow-x: auto;
+}
+  
+.rdg-header-row .rdg-cell {
+  font-weight: bold;
+}
+
+div[aria-colindex="1"] {
+  text-align: center;
+}
+
+.rdg .eye {
+  color: #007bff;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.rdg .eye:hover {
+  color: #00529B;
+  cursor: pointer;
+}
+
+.semesterYearFilter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.semesterYearFilter label {
+  font-weight: bold;
+}
+
+.semesterYearFilter select {
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.currentSemesterMessage {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: #333;
+}

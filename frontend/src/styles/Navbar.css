@@ -1,0 +1,58 @@
+.navbar {
+    background-color: #eee;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homelinks {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+  
+.homelinks a {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    text-decoration: 0;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: large;
+}
+  
+.homelinks a:hover {
+    color: #000;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.navlinks {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.navlinks a {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    text-decoration: 0;
+    font-size: 17px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+  
+.navlinks a:hover {
+    background-color: #CCC;
+    color: #000;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+    
+.navlinks a.active {
+    background-color: #888;
+    color: #EEE;
+}

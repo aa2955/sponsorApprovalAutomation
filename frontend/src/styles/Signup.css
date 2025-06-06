@@ -1,0 +1,72 @@
+.signup h2 {
+    margin-bottom: 30px;
+}
+
+.signup h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+  
+.role-buttons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+  
+.role-buttons button {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+  
+.role-buttons button:hover {
+  transform: scale(1.05);
+  background-color: #00529B;
+}
+  
+.secondary {
+  background-color: #ccc;
+  color: #333;
+  margin-left: 1rem;
+}
+
+.signup .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup .form input, 
+.signup .form select {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 0.5em;
+    width: 40%;
+}
+
+.signup .form .label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.signup .form button {
+    border: none;
+    width: max-content;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+    
+.signup .form button:hover {
+    background-color: #00529B;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    margin-top: 0px;
+    text-align: start;
+}
+  
+.long {
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+}
+  
+.long div {
+    padding: 0 0 20px 0;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}

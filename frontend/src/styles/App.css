@@ -1,0 +1,48 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  margin: 30px 35px;
+}
+
+.loadingSpinner {
+  --size: 120px;
+  --color: #666;
+  --speed: 1.1s;
+  --stroke: 20px;
+  --mask-size: calc(var(--size) / 2 - var(--stroke));
+
+  position: relative;
+  margin-left: calc(50% - var(--size) / 2);
+  margin-top: calc(40vh - var(--size) / 2);
+  height: var(--size);
+  width: var(--size);
+
+  -webkit-mask: radial-gradient(
+    circle var(--mask-size),
+    transparent 99%,
+    var(--color) 100%
+  );
+  mask: radial-gradient(circle var(--mask-size), transparent 99%, var(--color) 100%);
+
+  border-radius: 50%;
+  background-image: conic-gradient(transparent 25%, var(--color));
+
+  animation: spin calc(var(--speed)) linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.suggestion {
+  font-style: italic;
+  color: #444;
+}
