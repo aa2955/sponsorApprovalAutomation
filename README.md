@@ -27,8 +27,8 @@
 
 ### 👥 Team Members
 
-- **Sebastian Alcock** (Project Manager)  
-- **Anurag Agarwal**  
+- **Sebastian Alcock** (Project Manager 1)  
+- **Anurag Agarwal** (Project Manager 2)
 - **Justin Nguyen**
 
 ### 👨‍💻 Team Composition
